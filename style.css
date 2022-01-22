@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 500px) {
   .container {
-    font-size: 30vw;
-    font-size: 30vh;
+    font-size: 20vw;
+    font-size: 20vh;
   }
 }
