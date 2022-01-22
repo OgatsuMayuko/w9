@@ -13,7 +13,7 @@ function clock(){
   var t = document.getElementById('time');
   
   t.style.textAlign = "center";
-  t.innerHTML = nowtime;
+  t.innerHTML = nowtime; 
 }
 
 setInterval('clock()', 1000);
