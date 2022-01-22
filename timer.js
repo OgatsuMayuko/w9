@@ -1,4 +1,4 @@
-function clock(){
+function tokei(){
   var d = new Date();
 
   var h = d.getHours();
@@ -12,9 +12,9 @@ function clock(){
   nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   
-  t.style.textAlign = "center";
+ 
   t.innerHTML = nowtime; 
 }
 
-setInterval('clock()', 1000);
+setInterval('tokei()', 1000);
 
