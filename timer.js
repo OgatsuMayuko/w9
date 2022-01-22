@@ -10,7 +10,7 @@ function tokei(){
   s = s < 10 ? "0" + s : s;
 
   //表示の方法を書く
-  nowtime = h + ":" + m + ":" + s;
+  nowtime ="ただ今の時間は"+ h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   // 今の時間を表示する
  
